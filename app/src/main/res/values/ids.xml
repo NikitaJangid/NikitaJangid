@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="welcome_view" type="id">1</item>
+    <item name="activity_sign_up" type="id">.sign_up</item>
+</resources>

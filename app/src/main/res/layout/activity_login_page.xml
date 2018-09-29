@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_page"
+    android:background="@color/lime">
+
+    <TextView
+        android:id="@+id/link"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="www.MyShop.com"
+        android:textSize="30sp"
+        android:gravity="top"/>
+    <Button
+        android:id="@+id/Login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/link"
+        android:text="Click for Log_in"
+        android:onClick="onLoginClick"/>
+
+</RelativeLayout>
